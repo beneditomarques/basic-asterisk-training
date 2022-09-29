@@ -2,7 +2,24 @@
 
 1 - Possuir um servidor com instalação do Asterisk 11.15.0 com CDR em realtime (Mysql)
 
-2 - Notebook com qualquer distribuição linux (caso seja diferente do Ubuntu 22.04 LTS, verifique como irá instalar o SIPp em sua distro).
+2 - Notebook com qualquer distribuição linux (caso seja diferente do Ubuntu 22.04 LTS, verifique como irá instalar o SIPp em sua distro).  
+  
+  
+ # Metodologia
+
+ 1. Gerar tráfego até que o número de retransmissões ultrapasse o valor de 5 ou que o MOS (Mean Opinion Score) decaia para 3.
+ 2. Para o servidor em questão (2 cores) um load acima de 1.5 será considerado crítico
+ 3. As chamadas serão realizadas utilizando-se o codec g711A
+ 4. Restart do Asterisk após cada teste
+ 5. Mesmo hardware para todos os testes realizados
+ 
+ 
+ # Critérios de falha
+
+ 1. No máximo 10 retransmissões
+ 2. Asterisk utilizando a CPU até 70% (o mesmo que 140% em máquinas de 2 cores)
+ 3. MOS no mínimo em 3
+ 4. Sistema sem travamentos por pelo menos 5 minutos
 
 
 # Ambiente
