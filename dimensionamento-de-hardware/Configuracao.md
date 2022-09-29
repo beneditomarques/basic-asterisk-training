@@ -15,6 +15,7 @@
 |Modelo| Dell Vostro 5490|
 |S.O|Ubuntu 22.04.1 LTS|
 |Software utilizado no teste| SIPp|
+|IP|10.17.1.3|
 
  - Servidor
 
@@ -29,6 +30,7 @@
 |Sistema operacional| Centos 6.5|
 |Sistema de arquivos| ext4|
 |Versão do Asterisk|11.15.0|
+|IP|10.17.1.2|
 
 
 
@@ -38,6 +40,7 @@
  apt install git sip-tester -y
  git clone https://github.com/beneditomarques/basic-asterisk-training.git
  cd basic-asterisk-training/dimensionamento-de-hardware/sipp
+ sudo su
  ```
 
 # Configuração no Asterisk
