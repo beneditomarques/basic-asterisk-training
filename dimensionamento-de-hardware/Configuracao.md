@@ -37,7 +37,7 @@
 ```bash
  apt install git sip-tester -y
  git clone https://github.com/beneditomarques/basic-asterisk-training.git
- cd basic-asterisk-training/dimensionamento-de-hardware/
+ cd basic-asterisk-training/dimensionamento-de-hardware/sipp
  ```
 
 # Configuração no Asterisk
@@ -107,7 +107,7 @@ exten => 100,1,Answer()
 ``` 
 
 ```bash
-udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_01.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
+udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware/sipp # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_01.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
 ```
 
  **Resultado**: A qualidade se mantém estável até 350 chamadas simultâneas. 
@@ -140,7 +140,7 @@ exten => 100,1,Answer()
 ``` 
 
 ```bash
-udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
+udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware/sipp # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
 ```
 
  **Resultado**: A qualidade se mantém estável até 100 chamadas simultâneas. 
@@ -176,7 +176,7 @@ exten => 100,1,Answer()
 
 
 ```bash
-udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
+udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware/sipp # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 20 -l <número de chamadas>
 ```
 
  **Resultado**: A qualidade se mantém estável até 350 chamadas simultâneas. 
@@ -211,7 +211,7 @@ exten => 100,1,Answer()
 ``` 
 
 ```bash
-udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 50 -l <número de chamadas>
+udemy@Vostro-5490:~/basic-asterisk-training/dimensionamento-de-hardware/sipp # sipp -s 100 10.17.1.2:5060 -sf uac_scenario_02.xml -i 10.17.1.3 -r 50 -l <número de chamadas>
 ```
 
  **Resultado**: A qualidade se mantém estável até 70 chamadas simultâneas. 
