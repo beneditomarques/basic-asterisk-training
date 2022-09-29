@@ -2,7 +2,7 @@
 
 1 - Possuir um servidor com instalação do Asterisk 11.15.0 com CDR em realtime (Mysql)
 
-2 - Notebook com qualquer distribuição linux (caso seja diferente do Ubuntu 22.04 LTS, verifique como irá instalar o SIPp em sua distro.
+2 - Notebook com qualquer distribuição linux (caso seja diferente do Ubuntu 22.04 LTS, verifique como irá instalar o SIPp em sua distro).
 
 
 # Ambiente
