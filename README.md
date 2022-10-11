@@ -10,6 +10,5 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/dimensionam
  - [Instalação do Asterisk no Debian 11](
 https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/Instalacao.md)
 
-
-
+   - [Configuração dos áudios em Português do Brasil](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/internacionalizacao.md)
 
