@@ -1,13 +1,13 @@
 # Instalação e configuração de sons em Português no Asterisk
 
 
-1 - Criar o diretório que irá conter os áudios
+**1 - Criar o diretório que irá conter os áudios**
 
 ```bash
 mkdir /var/lib/asterisk/sounds/pt-br
 ```
 
-2 - Baixar os pacotes core e extra:
+**2 - Baixar os pacotes core e extra:**
 
 ```bash
 cd /var/lib/asterisk/sounds/pt-br
@@ -15,7 +15,7 @@ wget -O core.zip https://www.asterisksounds.org:443/pt-br/download/asterisk-soun
 wget -O extra.zip https://www.asterisksounds.org:443/pt-br/download/asterisk-sounds-extra-pt-BR-sln16.zip
 ```
 
-3 - Instalar o 'unzip' e usá-lo para descompactar os pacotes baixados:
+**3 - Instalar o 'unzip' e usá-lo para descompactar os pacotes baixados:**
 
 ```bash
 apt install unzip -y
@@ -23,7 +23,7 @@ unzip -o core.zip
 unzip -o extra.zip
 ```
 
-4 - Instalar o sox, criar o script de conversão de áudios de '.sln16' para '.gsm' e executá-lo:
+**4 - Instalar o sox, criar o script de conversão de áudios de '.sln16' para '.gsm' e executá-lo:**
 
 ```bash
 apt install sox -y
@@ -49,14 +49,14 @@ Você deverá notar agora arquivos .sln16 e .gsm em seu diretório /var/lib/aste
 ls /var/lib/asterisk/sounds/pt-br
 ```
 
-5 - Alterar a permissão dos diretórios para 775:
+**5 - Alterar a permissão dos diretórios para 775:**
 
 ```bash
 find /var/lib/asterisk/sounds/pt-br -type d -exec chmod 0775 {} \;
 ```
 
 
-6 - Configurar um contexto "audio-test". Adicione estas linhas ao final do arquivo /etc/asterisk/extensions.conf:
+**6 - Configurar um contexto "audio-test". Adicione estas linhas ao final do arquivo /etc/asterisk/extensions.conf:**
 
  
 ```bash
@@ -67,7 +67,7 @@ exten => *65,1,Noop(Fala o numero do ramal)
  same =>     n,Hangup()
 ```
 
-7 - Configurar o ramal para ficar com o idioma escolhido (Adicione estas linhas ao final do arquivo /etc/asterisk/pjsip.conf):
+**7 - Configurar o ramal para ficar com o idioma escolhido (Adicione estas linhas ao final do arquivo /etc/asterisk/pjsip.conf):**
 
 
 ```bash
@@ -93,7 +93,7 @@ type = aor
 max_contacts = 1
 ```
 
-8 - Carregar o codec alaw e recarregar os módulos e plano de discagem:
+**8 - Carregar o codec alaw e recarregar os módulos e plano de discagem:**
 
 ```bash
 rasterisk -x 'core reload'
@@ -101,13 +101,13 @@ rasterisk -x 'module load codec_alaw.so'
 rasterisk -x 'dialplan reload'
 ```
 
-9 - Verifique se o ramal ficou com o idioma configurado:
+**9 - Verifique se o ramal ficou com o idioma configurado:**
 
 ```bash
 rasterisk -x 'pjsip show endpoint 1000' | grep language
 ```
 
-10 - Configurar o softphone e efetuar o teste:
+**10 - Configurar o softphone e efetuar o teste:**
 
 ![zoiper-autenticado.png](zoiper-autenticado.png)
 

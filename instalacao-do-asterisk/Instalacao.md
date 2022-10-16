@@ -1,6 +1,6 @@
-# Instalação do Asterisk 18 no [Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso)
+# Instalação do Asterisk 18 no Debian 11
 
-Obs: A instalação do sistema operacional em sí está fora do escopo do curso. Caberá ao aluno realizar a instalação da distribuição Linux de sua preferência. 
+**Obs:** Embora a instalação do sistema operacional não seja foco deste treinamento, disponibilizamos um material para auxiliar na instalação do Debian 11 [neste link](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-debian-11/Instalacao.md).
 
 **1 - Download do Asterisk**
 
