@@ -116,7 +116,7 @@
 
 ![debian-21.png](./debian-21.png)
 
- - **Atenção:**  Este é o passo mais importante durante a instalação! Deixe as opções marcadas conforme o print para que o ambiente gráfico não seja instalado e possamos também ter um servidor SSH para efetua acesso remoto durante as aulas.
+ - **Atenção:**  Este é o passo mais importante durante a instalação! Deixe as opções marcadas conforme o print para que o ambiente gráfico não seja instalado e possamos também ter um servidor SSH para efetuar o acesso remoto durante as aulas.
  
 ![debian-22.png](./debian-22.png)
 
