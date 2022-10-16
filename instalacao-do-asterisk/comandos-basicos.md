@@ -18,7 +18,7 @@ asterisk -rvvv
  - Completamento de linha de comando
 
 ```bash
-core show <tab>
+core show <tab><tab>
 ```
 
 **Tabela de comandos**
