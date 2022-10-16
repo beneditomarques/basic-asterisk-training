@@ -45,7 +45,7 @@
 
 ![virtualbox-network.png](./virtualbox-network.png)
 
-Obs: Caso esteja utilizando o sistema operacional Linux, utilize o comando "ip a s" para listar as placas de rede e verificar qual é a utilizada por você. No print abaixo estamos utilizando a interface "wlp0s20f3", então esta será a interface a ser configurada no campo "Nome".
+**Obs:** Caso esteja utilizando o sistema operacional Linux, utilize o comando "ip a s" para listar as placas de rede e verificar qual é a utilizada por você. No print abaixo estamos utilizando a interface "wlp0s20f3", então esta será a interface a ser configurada no campo "Nome".
 
 ![linux-network.png](./linux-network.png)
 
@@ -90,7 +90,9 @@ Obs: Caso esteja utilizando o sistema operacional Linux, utilize o comando "ip a
   
 ![debian-11.png](./debian-11.png)
 
-**11 - Utilize o modo "assistido" para facilitar a instalação. Obs: as seguintes opções que foram selecionadas para efetuar o particionamento de disco não é a configuração adequada para instalações em ambiente de produção, mas sim apenas o suficiente para o que precisaremos no curso.**
+**11 - Utilize o modo "assistido" para facilitar a instalação.**
+
+**Obs:** as seguintes opções que foram selecionadas para efetuar o particionamento de disco não é a configuração adequada para instalações em ambiente de produção, mas sim apenas o suficiente para o que precisaremos no treinamento.
 
 ![debian-12.png](./debian-12.png)
 
