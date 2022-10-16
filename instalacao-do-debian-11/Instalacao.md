@@ -2,6 +2,7 @@
 
 
 ## Pré-requisitos
+ - Conexão com a internet no momento da instalação.
  - [Virtualbox](https://www.virtualbox.org/wiki/Downloads) mais novo instalado no seu computador.
  - O sistema operacional da máquina host não é relevante (Windows/Linux/MacOS).
 
