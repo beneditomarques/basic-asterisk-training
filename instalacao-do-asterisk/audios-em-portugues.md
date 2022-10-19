@@ -96,8 +96,8 @@ max_contacts = 1
 **8 - Carregar o codec alaw e recarregar os módulos e plano de discagem:**
 
 ```bash
-rasterisk -x 'core reload'
 rasterisk -x 'module load codec_alaw.so'
+rasterisk -x 'module reload res_pjsip.so'
 rasterisk -x 'dialplan reload'
 ```
 
