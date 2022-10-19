@@ -14,5 +14,5 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-
 
    - [Comandos básicos](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/comandos-basicos.md)   
 
-   - [Configuração dos áudios em Português do Brasil](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/internacionalizacao.md)
+   - [Configuração dos áudios em Português do Brasil](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/audios-em-portugues.md)
 
