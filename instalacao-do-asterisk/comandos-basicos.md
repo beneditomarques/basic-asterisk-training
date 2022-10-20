@@ -7,12 +7,16 @@
 ```bash
 asterisk -r
 ```
+ou
 
+```bash
+rasterisk
+```
 
  - Entrar na CLI do Asterisk com outro nível de debug:
 
 ```bash
-asterisk -rvvv
+rasterisk -vvv
 ```
 
  - Completamento de linha de comando
