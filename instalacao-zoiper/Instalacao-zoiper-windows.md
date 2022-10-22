@@ -8,9 +8,8 @@
 
 **1 - Baixe o Zoiper (versão 3) e execute o arquivo:**
 
-```
-https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-zoiper/Instalacao-zoiper-windows.md
-```
+https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-zoiper/Zoiper_for_AATeleccom_Windows_v3.60.exe
+
 
 ![Screenshot_1.jpg](Screenshot_1.jpg)
 ![Screenshot_2.jpg](Screenshot_2.jpg)
