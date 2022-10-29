@@ -19,3 +19,5 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-
   
    - [Configuração dos áudios em Português do Brasil](https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-do-asterisk/audios-em-portugues.md)
 
+
+ - [Labs](labs/labs.md)
