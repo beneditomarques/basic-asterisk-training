@@ -4,4 +4,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
 
  - [Lab1 - Contexto, extensão, prioridade](lab1/)
  - [Lab2 - Extensões especiais](lab2/)
- - [Lab3 - Variáveis](lab3/)
+ - [Lab3 - Variáveis - Utilização](lab3/)
+ - [Lab3 - Variáveis - Herança](lab4/)
