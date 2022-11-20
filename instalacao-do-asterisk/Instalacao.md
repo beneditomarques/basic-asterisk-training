@@ -13,13 +13,13 @@ wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.t
 ```bash
 tar xzfv asterisk-18-current.tar.gz 
 apt update
-bash asterisk-18.14.0/contrib/scripts/install_prereq install
+bash asterisk-18.*/contrib/scripts/install_prereq install
 ```
 
 **3 - Compilar o Asterisk**
 
 ```bash
-cd asterisk-18.14.0/
+cd asterisk-18.*/
 ./configure 
 make
 make install
