@@ -7,3 +7,4 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab3 - Variáveis - Utilização](lab3/)
  - [Lab4 - Variáveis - Herança](lab4/)
  - [Lab5 - Correspondência de padrões](lab5/)
+ - [Lab6 - Construindo um plano de discagem real](lab6/)
