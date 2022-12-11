@@ -10,3 +10,4 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab6 - Construindo um plano de discagem real](lab6/)
  - [Lab7 - Realizando entroncamento SIP](lab7/)
  - [Lab8 - Realizando entroncamento IAX](lab8/)
+ - [Lab9 - Concluindo o plano de discagem configurando as rotas de entrada](lab9/) 
