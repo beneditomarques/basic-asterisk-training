@@ -21,4 +21,6 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-
 
 
  - [Labs](labs/labs.md)
+  
+ - [Simulador de operadoras Voip](https://github.com/beneditomarques/voip-carrier-simulator)
 
