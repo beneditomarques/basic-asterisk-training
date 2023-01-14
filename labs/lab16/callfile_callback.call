@@ -1,0 +1,7 @@
+Channel: PJSIP/{EXTENSAO}
+MaxRetries: 2
+RetryTime: 10
+WaitTime: 30
+Extension: 60
+Context: interno
+CallerID: callback
