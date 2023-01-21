@@ -17,4 +17,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab13 - Estacionamento de chamadas](lab13/) 
  - [Lab14 - Features personalizadas](lab14/) 
  - [Lab15 - PBX: Answer e Progress](lab15/) 
- - [Lab15 - PBX: Contrução de um callback utilizando a aplicação Progress](lab16/) 
+ - [Lab16 - PBX: Contrução de um callback utilizando a aplicação Progress](lab16/) 
+ - [Lab17 - PBX: Callback + DISA](lab17/)
