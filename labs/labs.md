@@ -20,3 +20,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab16 - PBX: Contrução de um callback utilizando a aplicação Progress](lab16/) 
  - [Lab17 - PBX: Callback + DISA](lab17/)
  - [Lab18 - PBX: Authenticate](lab18/)
+ - [Lab19 - PBX: Background X Read](lab19/)
+ - [Lab20 - PBX: Monitor X MixMonitor](lab20/)
