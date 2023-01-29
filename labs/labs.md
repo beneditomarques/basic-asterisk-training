@@ -23,3 +23,4 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab19 - PBX: Background X Read](lab19/)
  - [Lab20 - PBX: Monitor X MixMonitor](lab20/)
  - [Lab21 - PBX: Meetme X Confbridge](lab21/)
+ - [Lab22 - PBX: Voicemail X VoicemailMain](lab22/)
