@@ -25,4 +25,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab21 - PBX: Meetme X Confbridge](lab21/)
  - [Lab22 - PBX: Voicemail X VoicemailMain](lab22/)
  - [Lab23 - PBX: SayAlpha, SayPhonetic, SayDigits, SayNumber](lab23/)
+ - [Lab24 - Callcenter: Queue](lab24/)
 
