@@ -26,4 +26,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab22 - PBX: Voicemail X VoicemailMain](lab22/)
  - [Lab23 - PBX: SayAlpha, SayPhonetic, SayDigits, SayNumber](lab23/)
  - [Lab24 - Callcenter: Queue](lab24/)
+ - [Lab25 - Callcenter: AddQueueMember e RemoveQueueMember](lab25/)
 
