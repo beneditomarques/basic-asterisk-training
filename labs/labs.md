@@ -28,4 +28,7 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab24 - Callcenter: Queue](lab24/)
  - [Lab25 - Callcenter: AddQueueMember e RemoveQueueMember](lab25/)
  - [Lab26 - Callcenter: AgentLogin e AgentRequest](lab26/)
+ - [Lab27 - Callcenter: PauseQueueMember e UnpauseQueueMember](lab27/)
+ - [Lab28 - Callcenter: ChanSpy](lab28/)
+ - [Lab29 - Callcenter: AMD](lab29/)
 
