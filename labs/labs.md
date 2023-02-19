@@ -33,4 +33,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab29 - Callcenter: AMD](lab29/)
  - [Lab30 - Funções: CUT](lab30/)
  - [Lab31 - Funções: LEN](lab31/)
+ - [Lab32 - Funções: ARRAY](lab32/)
 
