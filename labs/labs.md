@@ -31,4 +31,6 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab27 - Callcenter: PauseQueueMember e UnpauseQueueMember](lab27/)
  - [Lab28 - Callcenter: ChanSpy](lab28/)
  - [Lab29 - Callcenter: AMD](lab29/)
+ - [Lab30 - Funções: CUT](lab30/)
+ - [Lab31 - Funções: LEN](lab31/)
 
