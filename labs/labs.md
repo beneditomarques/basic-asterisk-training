@@ -36,4 +36,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab32 - Funções: ARRAY](lab32/)
  - [Lab33 - Funções: INC](lab33/)
  - [Lab34 - Funções: EXISTS](lab34/)
+ - [Lab35 - Funções: STRPTIME E STRFTIME](lab35/)
 
