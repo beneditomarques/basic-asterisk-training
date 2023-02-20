@@ -35,4 +35,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab31 - Funções: LEN](lab31/)
  - [Lab32 - Funções: ARRAY](lab32/)
  - [Lab33 - Funções: INC](lab33/)
+ - [Lab34 - Funções: EXISTS](lab34/)
 
