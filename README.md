@@ -24,4 +24,3 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-
   
  - [Simulador de operadoras Voip](https://github.com/beneditomarques/voip-carrier-simulator)
 
- - [Nova feature](https://www.google.com)
