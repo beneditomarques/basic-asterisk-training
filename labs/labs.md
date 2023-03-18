@@ -37,4 +37,6 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab33 - Funções: INC](lab33/)
  - [Lab34 - Funções: EXISTS](lab34/)
  - [Lab35 - Funções: STRPTIME E STRFTIME](lab35/)
+ - [Lab36 - Funções: FILTER](lab36/)
+ - [Lab37 - Funções: GROUP, GROUP_LIST e GROUP_COUNT](lab37/)
 

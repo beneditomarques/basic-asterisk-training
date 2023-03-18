@@ -1,0 +1,1 @@
+1000 = destinatario1@gmail.com,destinatario2@gmail.com 
