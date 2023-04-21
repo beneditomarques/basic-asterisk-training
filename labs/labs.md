@@ -39,4 +39,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab35 - Funções: STRPTIME E STRFTIME](lab35/)
  - [Lab36 - Funções: FILTER](lab36/)
  - [Lab37 - Funções: GROUP, GROUP_LIST e GROUP_COUNT](lab37/)
+ - [Lab38 - Funções: BLACKLIST](lab38/)
 
