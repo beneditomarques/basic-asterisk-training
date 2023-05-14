@@ -40,4 +40,8 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab36 - Funções: FILTER](lab36/)
  - [Lab37 - Funções: GROUP, GROUP_LIST e GROUP_COUNT](lab37/)
  - [Lab38 - Funções: BLACKLIST](lab38/)
+ - [Lab39 - AGI](AGI.md)
+ - [Lab40 - AMI](AMI.md)
+ - [Lab41 - AJAM](AJAM.md)
+ - [Lab42 - ARI](ARI.md)
 
