@@ -34,6 +34,10 @@ http://192.168.100.153:8088/ari/api-docs/resources.json?api_key=ari:mypassword
 
 4. Configurar a aplicação em **/opt/apps/playback-dtmfs.py** (trocar **AST_HOST** e **webhook_url** de acordo com o seu ambiente ):
 
+```bash
+mkdir -p /opt/apps
+```
+
 ```python
 #!/usr/bin/python3
 
