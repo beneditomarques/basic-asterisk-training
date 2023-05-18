@@ -1,3 +1,6 @@
+# CONFIGURAÇÃO CDR + CEL
+
+## PARTE 1 (DRIVERS E BANCO DE DADOS)
 
  - Instalar o MariaDB e compilar o conector ODBC para o MariaDB
 
@@ -46,6 +49,8 @@ docker run -d --restart=always --network=host -e APACHE_PORT=9090 -e PMA_HOST=12
 ```sql
 CREATE DATABASE asteriskcdrdb;
 ```
+
+# PARTE 2 (INTEGRAÇÃO COM O ASTERISK)
 
  - Criar tabelas cdr e cel:
 
