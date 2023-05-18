@@ -1,46 +1,3 @@
-# [ARI](https://wiki.asterisk.org/wiki/display/AST/Getting+Started+with+ARI)
-
-**Procedimentos**
-
-1. Instalar as dependências:
-
-```bash
-apt-get install whois -y
-pip3 install asyncari
-```
-
-2. Configurar o arquivo **/etc/asterisk/ari.conf** (Obs: gerar a senha com o comando "mkpasswd -m sha-512 mypassword"):
-
-```
-[general]
-enabled = yes
-pretty = yes
-allowed_origins = * 
-
-[ari]
-type=user
-read_only=no
-password = $6$j7Q/qrUsI0fdMpJH$CQb1m6fI0ezMiq7nQVqGqv.uzCQXQtK2OyPouAHV41naq/BIXLkB5KumRCLBoGCnNWt7paPXRICL/JWoErpzw.
-password_format = crypt
-```
-
-```bash
-rasterisk -x 'module reload res_ari.so'
-```
-
-3. Testar as credenciais no [http://ari.asterisk.org/](http://ari.asterisk.org/) (Necessário desativar o CORS)
-
-URL: http://192.168.100.153:8088/ari/api-docs/resources.json
-api_key: ari:mypassword
-
-4. Configurar a aplicação em **/opt/apps/playback-dtmfs.py** (trocar **AST_HOST** e **webhook_url** de acordo com o seu ambiente ):
-
-```bash
-mkdir -p /opt/apps
-cd /opt/apps
-```
-
-```python
 #!/usr/bin/python3
 
 """Brief example of using the channel API with a state machine.
@@ -130,40 +87,4 @@ if __name__ == "__main__":
         anyio.run(main, backend="trio")
     except KeyboardInterrupt:
         pass
-
-```
-
-5. Dar permissão de execução e conectar a aplicação ao asterisk:
-
-```bash
-chmod +x /opt/apps/playback-dtmfs.py
-/opt/apps/playback-dtmfs.py
-```
-
-6. Configurar o dialplan para enviar a chamada para a aplicação:
-
- - aplicacoes.conf
-
-```
-[apps]
-exten => 500,1,NoOp()
- same =>     n,Answer()
- same =>     n,Stasis(hello)
- same =>     n,Hangup()
-```
-
- - extensions.conf
-
-```
-[padrao]
-#include aplicacoes.conf
-include = apps
-```
-
-```bash
-rasterisk -x 'dialplan reload'
-```
-
-7. Ligar para o 500.
-
 
