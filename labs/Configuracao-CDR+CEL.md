@@ -140,7 +140,7 @@ rasterisk -x 'module reload res_odbc.so'
  
 ```bash 
 isql MariaDB-client -v
-``'
+```
 
  - Configurar o arquivo /etc/asterisk/cdr_adaptive_odbc.conf
  
