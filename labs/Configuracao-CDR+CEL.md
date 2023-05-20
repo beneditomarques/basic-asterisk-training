@@ -25,6 +25,7 @@ systemctl enable --now mariadb
 
 ```sql
 GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY '9ZLH56F3v7rg' WITH GRANT OPTION;
+GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '9ZLH56F3v7rg' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
  - Criar usuário admin
@@ -132,10 +133,6 @@ Driver=/usr/local/lib/mariadb/libmaodbc.so
 Description=MariaDB
 ```
 
-```bash
-rasterisk -x 'module reload res_odbc.so'
-```
-
  - Testar conexão com isql 
  
 ```bash 
@@ -157,6 +154,10 @@ table=cdr
 [first]
 connection=asterisk
 table=cel
+```
+
+```bash
+rasterisk -x 'module reload res_odbc.so'
 ```
 
  - Configurar o arquivo /etc/asterisk/cel.conf
