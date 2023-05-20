@@ -139,6 +139,19 @@ Description=MariaDB
 isql MariaDB-client -v
 ```
 
+ - Configurar o arquivo /etc/asterisk/res_odbc.conf
+
+[ENV]
+[asterisk]
+enabled => yes
+dsn => MariaDB-client
+pre-connect => yes
+
+
+```bash
+rasterisk -x 'module reload res_odbc.so'
+```
+
  - Configurar o arquivo /etc/asterisk/cdr_adaptive_odbc.conf
  
 ``` 
@@ -154,10 +167,6 @@ table=cdr
 [first]
 connection=asterisk
 table=cel
-```
-
-```bash
-rasterisk -x 'module reload res_odbc.so'
 ```
 
  - Configurar o arquivo /etc/asterisk/cel.conf
