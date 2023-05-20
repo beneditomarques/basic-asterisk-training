@@ -141,12 +141,13 @@ isql MariaDB-client -v
 
  - Configurar o arquivo /etc/asterisk/res_odbc.conf
 
+```
 [ENV]
 [asterisk]
 enabled => yes
 dsn => MariaDB-client
 pre-connect => yes
-
+```
 
 ```bash
 rasterisk -x 'module reload res_odbc.so'
