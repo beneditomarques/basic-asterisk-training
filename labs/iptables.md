@@ -1,6 +1,6 @@
 # Segurança: iptables
 
-1 - Criar o script `/opt/regras.sh` com o conteúdo abaixo (trocar o valor da rede interna para o seu ambiente):
+**1 - Criar o script `/opt/regras.sh` com o conteúdo abaixo (trocar o valor da rede interna para o seu ambiente):**
 
 ```bash
 #!/bin/bash
@@ -36,18 +36,18 @@ iptables -A INPUT -p udp -m udp -s $INTERNAL_NETWORK --dport 5080 -j ACCEPT
 iptables -A INPUT -p udp -m udp -s $INTERNAL_NETWORK --dport 4569 -j ACCEPT
 ```
 
-2 - Dar permissão de execução ao script e executar:
+**2 - Dar permissão de execução ao script e executar:**
 
 ```bash
 chmod +x /opt/regras.sh
 bash /opt/regras.sh
 ```
 
-3 - Testar a conexão com o módulo http (deverá estar bloqueada):
+**3 - Testar a conexão com o módulo http (deverá estar bloqueada):**
 
 http://192.168.100.153:8088/httpstatus
 
-4 - Instalar o pacote `iptables-persistent` para que as regras fiquem persistentes. Indique que quer salvar as regas atuais em /etc/iptables/rules.v4:
+**4 - Instalar o pacote `iptables-persistent` para que as regras fiquem persistentes. Indique que quer salvar as regas atuais em /etc/iptables/rules.v4:**
 
 ```bash
 apt install iptables-persistent -y
@@ -55,7 +55,7 @@ apt install iptables-persistent -y
 ![iptables-confirmacao-1.png](iptables-confirmacao-1.png)
 ![iptables-confirmacao-2.png](iptables-confirmacao-2.png)
 
-5 - Confira se o arquivo contém as regras atuais e reinicie o servidor:
+**5 - Confira se o arquivo contém as regras atuais e reinicie o servidor:**
 
 ```bash
 reboot
