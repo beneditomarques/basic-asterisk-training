@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import requests
+from asterisk import agi
+import sys
+
+agi = agi.AGI()
+id = sys.argv[1]
+url = f"https://reqres.in/api/users/{id}"
+payload = ""
+response = requests.request("GET", url, data=payload)
+
+#print(response.json()['data']['email'])
+agi.set_variable('EMAIL', response.json()['data']['email'])
