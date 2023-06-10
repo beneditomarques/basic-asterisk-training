@@ -35,7 +35,7 @@ action  = iptables[name=ASTERISK, port=5060, protocol=udp]
 
 **4 - Restarte o Fail2ban**:
 ```bash
-service fail2ban restart
+systemctl restart fail2ban
 ```
 
 **5 - Cheque as jails carregadas**:
