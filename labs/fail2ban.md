@@ -6,7 +6,7 @@
 apt-get install fail2ban -y
 ```
 
-**2 - Edite o arquivo /etc/asterisk/logger.conf para fazer o asterisk gerar logs:**
+**2 - Edite o arquivo /etc/asterisk/logger.conf para fazer o asterisk gerar logs, e recarregue para aplicar:**
 
 ```bash
 [general]
@@ -16,6 +16,10 @@ console = verbose,notice,warning,error,debug
 messages = notice,warning,error
 ;full = verbose,notice,warning,error,debug
 ;security = security
+```
+
+```bash
+rasterisk -x 'logger reload'
 ```
  
 **3 - Crie a Jail `iptables-asterisk` criando o arquivo /etc/fail2ban/jail.d/asterisk.local:**
