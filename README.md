@@ -26,3 +26,5 @@ https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-
 
  - [Segurança: iptables](labs/iptables.md)
 
+ - [Segurança: Fail2ban](labs/fail2ban.md)
+
