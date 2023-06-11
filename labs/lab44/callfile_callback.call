@@ -1,0 +1,7 @@
+Channel: Local/{EXTENSAO}@interno
+MaxRetries: 2
+RetryTime: 10
+WaitTime: 30
+Extension: 400
+Context: interno
+CallerID: callback

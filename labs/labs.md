@@ -45,4 +45,5 @@ Aqui você encontrará diversos arquivos de configuração utilizados nas aulas 
  - [Lab41 - AJAM](AJAM.md)
  - [Lab42 - ARI](ARI.md)
  - [Lab43 - CDR+CEL](Configuracao-CDR+CEL.md)
+ - [Lab44 - Logs](lab44/)
 
