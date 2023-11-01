@@ -11,7 +11,7 @@
 **1 - Baixar a ISO do site oficial:**
 
 
-[https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso)
+[https://cdimage.debian.org/mirror/cdimage/archive/11.5.0/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso](https://cdimage.debian.org/mirror/cdimage/archive/11.5.0/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso)
 
 
 **2 - Criar uma nova máquina virtual no Virtualbox:**
