@@ -11,7 +11,7 @@ wget https://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-18.
 **2 - Descompactar o arquivo baixado, atualizar a lista de pacotes do Debian e instalar as dependências**
 
 ```bash
-tar xzfv asterisk-18-current.tar.gz 
+tar xzfv asterisk-18.14.0.tar.gz 
 apt update
 bash asterisk-18.*/contrib/scripts/install_prereq install
 ```
