@@ -101,6 +101,8 @@ rasterisk -x 'module reload res_pjsip.so'
 rasterisk -x 'dialplan reload'
 ```
 
+**OBS**: para que o codec alaw possa ser carregado após a reinicialização do servidor, adicione a linha `load = codec_alaw.so` ao arquivo /etc/asterisk/modules.conf.
+
 **9 - Verifique se o ramal ficou com o idioma configurado:**
 
 ```bash
