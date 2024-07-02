@@ -8,7 +8,7 @@ _**Atualização!** no mês 06/2024 notou-se que o site https://www.asterisksoun
 mkdir /var/lib/asterisk/sounds/pt-br
 ```
 
-**2 - Baixar os pacotes core e extra:**
+**2 - Baixar os pacotes de áudio:**
 
 ```bash
 cd /var/lib/asterisk/sounds/pt-br
