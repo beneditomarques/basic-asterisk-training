@@ -1,5 +1,6 @@
 # Instalação e configuração de sons em Português no Asterisk
 
+_**Atualização!** no mês 06/2024 notou-se que o site https://www.asterisksounds.org/ de onde os áudios eram baixados ficou indisponível! Por este motivo este passo a passo foi atualizado para baixar os áudios em português do Brasil diretamente deste repositório do github._
 
 **1 - Criar o diretório que irá conter os áudios**
 
@@ -11,8 +12,11 @@ mkdir /var/lib/asterisk/sounds/pt-br
 
 ```bash
 cd /var/lib/asterisk/sounds/pt-br
+
 wget -O audios_pt-br_part01.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part01.zip
+
 wget -O audios_pt-br_part02.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part02.zip
+
 wget -O audios_pt-br_part03.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part03.zip
 ```
 
