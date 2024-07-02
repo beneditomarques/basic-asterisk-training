@@ -11,16 +11,18 @@ mkdir /var/lib/asterisk/sounds/pt-br
 
 ```bash
 cd /var/lib/asterisk/sounds/pt-br
-wget -O core.zip https://www.asterisksounds.org:443/pt-br/download/asterisk-sounds-core-pt-BR-sln16.zip
-wget -O extra.zip https://www.asterisksounds.org:443/pt-br/download/asterisk-sounds-extra-pt-BR-sln16.zip
+wget -O audios_pt-br_part01.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part01.zip
+wget -O audios_pt-br_part02.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part02.zip
+wget -O audios_pt-br_part03.zip https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/main/instalacao-do-asterisk/audios_pt-br_part03.zip
 ```
 
 **3 - Instalar o 'unzip' e usá-lo para descompactar os pacotes baixados:**
 
 ```bash
 apt install unzip -y
-unzip -o core.zip
-unzip -o extra.zip
+unzip -o audios_pt-br_part01.zip
+unzip -o audios_pt-br_part02.zip
+unzip -o audios_pt-br_part03.zip
 ```
 
 **4 - Instalar o sox, criar o script de conversão de áudios de '.sln16' para '.gsm' e executá-lo:**
