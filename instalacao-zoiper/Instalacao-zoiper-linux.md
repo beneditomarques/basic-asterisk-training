@@ -10,7 +10,7 @@
 
 ```bash
 cd /tmp/
-wget https://github.com/beneditomarques/basic-asterisk-training/blob/main/instalacao-zoiper/Zoiper_for_AATeleccom_Linux_64bit_v3.20.run
+wget https://raw.githubusercontent.com/beneditomarques/basic-asterisk-training/b2e684f23af6a9f9794ac0314cb29f9a338d5461/instalacao-zoiper/Zoiper_for_AATeleccom_Linux_64bit_v3.20.run
 ```
 
 **2 - Dê permissão de execução:**
