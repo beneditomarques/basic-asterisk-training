@@ -107,7 +107,7 @@ rasterisk -x 'module reload res_pjsip.so'
 rasterisk -x 'dialplan reload'
 ```
 
-**OBS**: para que o codec alaw e outros módulos possam ser carregados automaticamente após a reinicialização do servidor, atualize o arquivo /etc/asterisk/modules.conf com o conteúdo presente nos arquivos de `lab` e reinicie o Asterisk.
+**OBS**: para que o codec alaw e outros módulos possam ser carregados automaticamente após a reinicialização do servidor, atualize o arquivo /etc/asterisk/modules.conf para que fique com apenas o conteúdo abaixo e reinicie o Asterisk.
 
 <details open><summary>modules.conf</summary>
 
